@@ -128,7 +128,7 @@ class HtmlView extends PureComponent {
       <RootComponent
         {...this.props.rootComponentProps}
         style={{
-          style,
+          ...style,
           width: '100%',
         }}
       />
